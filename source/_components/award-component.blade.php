@@ -39,7 +39,7 @@
 			{{-- Nominate --}}
 			@if($award->supressNominationLink == FALSE)	
 				<div class="w-full mt-4 sm:w-2/3 md:w-full lg:w-1/2 lg:px-2 xl:mt-0 mx-auto">
-					<a href="{{ $award->nominationURL }}" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md">
+					<a href="#" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md">
 						<div class="flex justify-center bg-white w-full rounded p-3 text-blue-900">
 							<img src="{{ $page->baseUrl }}/assets/images/icons/envelope.svg" alt="Nominate Icon" class="w-5 h-5">
 							<span class="ml-2">Make A Nomination</span>
