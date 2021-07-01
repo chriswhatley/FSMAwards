@@ -1,9 +1,11 @@
 ---
 title: Security/Risk Manager Of The Year
-criteria: security-risk-manager-of-year.pdf
+criteria: security-risk-manager-of-the-year.pdf
 sponsor:
 icon: lock
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This category is designed to recognise a Security or Risk Manager who made a significant contribution to the implementation or security standards within either their own or a client organisation. They must also have made a significant contribution to the introduction and promotion of security/risk management since 1 January 2020.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Any personal accomplishments prior to this date are not relevant and will not be eligible for entry.
+
+ 

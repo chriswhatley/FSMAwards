@@ -9,7 +9,7 @@
 @import "custom";
 
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
-/*@import "debugging";*/
+@import "debugging";
 
 /* Tailwind */
 @import "tailwindcss/utilities";

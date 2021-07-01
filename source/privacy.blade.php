@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Privacy & Cookie Policy', 'background_image' => 'header-a'])
+		@include('_components.title-component', ['title' => 'Privacy & Cookie Policy', 'background_image' => 'hero'])
 
 		<section class="container mx-auto px-6 py-6 md:py-10 smallprint">  
 

@@ -10,11 +10,11 @@
         <div class="flex content-center text-sm" @click.away="open = false" x-on:keydown.escape="open = false">                
             
             <div class="hidden md:flex">                    
-                <div class="mr-16 text-center">
+                <div class="md:mr-8 lg:mr-12 text-center">
                     Headline sponsor
-                    <img src="{{ $page->baseUrl }}/assets/images/layout/header-aico.svg" alt="Aico" class="mt-3 w-32">
+                    <img src="{{ $page->baseUrl }}/assets/images/layout/header-aico.svg" alt="Aico" class="md:mt-3 md:h-12 lg:mt-1 lg:h-16">
                 </div>   
-                <div class="mr-16 text-center">
+                <div class="md:mr-8 lg:mr-16 text-center">
                     In conjunction with
                     <img src="{{ $page->baseUrl }}/assets/images/layout/header-fia.svg" alt="FIA" class="mt-1 w-32">
                 </div>                                                
@@ -128,11 +128,11 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="{{ $page->registerURL }}" class="nav-item bg-red-pigment-500 sm:bg-transparent">
+                        	<a href="{{ $page->registerURL }}" class="nav-item bg-red-pigment-500 sm:bg-transparent" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>
-                        		Register to Attend
+                        		Book Your Tickets
                         	</a>
                         </li>                            
                     </ul>                          

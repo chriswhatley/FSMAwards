@@ -38,12 +38,12 @@
 	            		</div>
             		</a>
 
-            		<a href="{{ $page->registerURL }}" class="btn-primary w-4/5 max-w-xs">		            	
+            		<a href="{{ $page->registerURL }}" class="btn-primary w-4/5 max-w-xs" target="_blank">		            	
         				<div class="bg-white w-full rounded p-3 text-blue-900">
 	            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 	            				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 	            			</svg>
-	            			Register To Attend
+	            			Book Your Tickets
 	            		</div>
             		</a>
 

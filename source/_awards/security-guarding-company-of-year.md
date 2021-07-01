@@ -1,9 +1,9 @@
 ---
 title: Security Guarding Company Of The Year
-criteria: security-guarding-company-of-year.pdf
+criteria: security-guarding-company-of-the-year.pdf
 sponsor:
 icon: lock
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This category is designed to recognise a security guarding/door supervision company that has gone above and beyond in its commitment to protect premises, staff or customers. This category will be judged based on feedback from clients on the quality of service from the nominated company.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Any company that enters must be SIA Approved Contractor. The answers to the entry questions must relate to the period 1 January 2020 onwards. Any entry relating prior to this date are not eligible.

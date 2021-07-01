@@ -6038,7 +6038,7 @@ __webpack_require__.r(__webpack_exports__);
 // FAQ questions - dynamically generated Alpine Accordion
 window.faq = [{
   question: "How much does it cost to enter?",
-  answer: ["It’s free to enter"]
+  answer: ["It’s free to enter."]
 }, {
   question: "Can I enter two different people or two different products or campaigns to the same category?",
   answer: ["Yes. You can enter each category as many times as you like."]
@@ -6056,7 +6056,7 @@ window.faq = [{
   answer: ["Entries will close on 30th November 2021 at 11:59pm."]
 }, {
   question: "How do I enter the Awards?",
-  answer: ["You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-yellow-500 font-semibold\">enter nominations here</a>."]
+  answer: ["You enter online via our <a href=\"/nominate\" class=\"text-red-pigment-500 font-semibold\">award entries page</a> and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-red-pigment-500 font-semibold\">enter nominations here</a>."]
 }, {
   question: "When will the shortlist be revealed?",
   answer: ["We will announce the shortlist in February 2022."]
@@ -6071,7 +6071,7 @@ window.faq = [{
 // },
 {
   question: "What should I do if I've got further questions or am unsure if my entry is eligible?",
-  answer: ["If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-yellow-500 font-semibold\">clicking HERE</a>."]
+  answer: ["If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-red-pigment-500 font-semibold\">clicking HERE</a>."]
 }]; // Sponsor Carousel 
 
 

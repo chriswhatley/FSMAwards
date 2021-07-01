@@ -147,7 +147,7 @@
                         <svg class="mr-3 w-4 h-4 text-red-pigment-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="{{ $page->registerURL }}" class="footer-link">Register To Attend</a>
+                        <a href="{{ $page->registerURL }}" class="footer-link" target="_blank">Book Your Tickets</a>
                     </div>                 
                 </li>
                 <li>
@@ -260,7 +260,7 @@
                     &copy; Western Business Media Limited 2021 <br class="block sm:hidden" />All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
-                    <a href="/terms" class="inline-block py-2 pr-2 text-sm hover:text-red-pigment-500 transition duration-300">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy" class="inline-block pl-2 py-2 hover:text-red-pigment-500 transition duration-300">Privacy &amp; Cookie Policy</a>
+                    <a href="/privacy" class="inline-block pl-2 py-2 hover:text-red-pigment-500 transition duration-300">Privacy &amp; Cookie Policy</a>
                 </div>                        
             </div>
         </div> 

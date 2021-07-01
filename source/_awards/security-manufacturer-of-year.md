@@ -1,9 +1,9 @@
 ---
 title: Security Manufacturer Of The Year
-criteria: security-manufacturer-of-year.pdf
+criteria: security-systems-manufacturer-of-the-year.pdf
 sponsor:
 icon: lock
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This category is designed to recognise a manufacturer of security systems that has gone above and beyond in its commitment to innovation and/or its systems meet the highest standards. This category will be judged based on feedback from clients on the quality of the system(s) that have been nominated
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The answers to the entry questions must relate to projects or systems installed since 1 January 2020. Any products or services installed prior to this date are not eligible for entry.

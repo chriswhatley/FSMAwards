@@ -3,6 +3,6 @@ name: Aico
 logo: aico
 website: https://www.aico.co.uk/
 ---
-Aico, an Ei Company, is a market leader in domestic fire and Carbon Monoxide (CO) protection, pioneering new technologies and offering high quality alarms designed, developed and manufactured at our factory in Shannon, Ireland. Aico alarms meet all UK standards with a wide range of sensor types to ensure every home is protected, and we offer expert technical support and advice on alarm selection, siting and installation as well as personalised specification documents and a dedicated installer training scheme, Expert Installer.
+Aico, an Ei Company are the leader in home life safety, pioneering new technologies and offering high quality alarms, developed and manufactured in Ireland. All Aico alarms meet UK standards and offer a variety of sensor types to guarantee protection for every home, the cornerstone of which is delivering education, quality, service and innovation. 
 
-We also work alongside Local Authorities and Housing Associations to create bespoke specifications and solutions to help create safer environments for tenants.
+In 2020, Aico expanded their Connected Home offering with the acquisition of leading Internet of Things (IoT) solutions provider, HomeLINK. HomeLINK leverages cutting edge smart home integration and analytics technologies, providing a complementary platform to present a synergistic approach to IoT.

@@ -27,7 +27,7 @@
 			{{-- Criteria --}}
 			@if(strlen($award->criteria) > 0)
 				<div class="w-full sm:w-2/3 md:w-full lg:w-1/2 lg:px-2 mx-auto">
-					<a href="{{ $page->baseUrl }}/assets/docs/{{ $award->criteria }}" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md" target="_blank">
+					<a href="{{ $page->baseUrl }}/assets/docs/criteria/{{ $award->criteria }}" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md" target="_blank">
 						<div class="flex justify-center bg-white w-full rounded p-3 text-blue-900">
 							<img src="{{ $page->baseUrl }}/assets/images/icons/compose.svg" alt="Award Criteria Icon" class="w-5 h-5">
 							<span class="ml-2">Award Criteria</span>

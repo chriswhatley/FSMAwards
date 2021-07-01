@@ -37,7 +37,7 @@
 								<div class="relative overflow-hidden transition-all max-h-0 duration-500" x-bind:style="faq_selected === index ? `max-height:  ${ $el.scrollHeight }px` : ``">
 									<div class="mt-2 mx-3">
 										<template x-for="(ans, index) in item.answer" :key="'item-ans-{$index}'">
-											<p x-text="ans"></p>
+											<p x-html="ans"></p>
 										</template>
 									</div>
 								</div>

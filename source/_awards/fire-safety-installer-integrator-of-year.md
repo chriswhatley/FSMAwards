@@ -1,7 +1,9 @@
 ---
 title: Fire Safety Systems Installer/Integrator Of The Year
-criteria: fsm-awards-2022-fire-safety-installer-integrator-of-year.pdf
-sponsor: 
+criteria: fire-safety-installer-integrator-of-the-year.pdf
+sponsor: apollo
 icon: hot
 ---
-Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nulla reiciendis doloremque quaerat corrupti omnis perspiciatis magni veritatis, iste maiores voluptatum? Esse, consequatur. Alias nostrum, libero tenetur qui harum praesentium adipisci.
+This category is designed to recognise the skills and quality of work carried out by an installer or integrator when installing a fire safety system. The installation of these products must have taken place since 1 January 2020.
+
+Any installation or project prior to this date are not eligible for entry.

@@ -1,9 +1,9 @@
 ---
 title: Security Installer/Integrator Of The Year
-criteria: security-installer-integrator-of-year.pdf
+criteria: security-installer-of-the-year.pdf
 sponsor:
 icon: lock
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This category is designed to recognise the skills and quality of work carried out by an installer or integrator when installing a security system. The installation of these products must have taken place since 1 January 2020.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Any installation or project prior to this date are not eligible for entry.

@@ -1,7 +1,9 @@
 ---
 title: Fire Safety Project Of The Year
-criteria: fsm-awards-2022-fire-safety-project-of-year.pdf
+criteria: fire-safety-project-of-the-year.pdf
 sponsor: 
 icon: hot
 ---
-Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nulla reiciendis doloremque quaerat corrupti omnis perspiciatis magni veritatis, iste maiores voluptatum? Esse, consequatur. Alias nostrum, libero tenetur qui harum praesentium adipisci.
+This category is designed to recognise a project, which has delivered significant improvement(s) to fire safety in relation to people and/or premises.
+
+The project must have been launched no earlier than 1 January 2020.

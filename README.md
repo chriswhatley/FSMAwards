@@ -4,7 +4,7 @@
 Chris Whatley
 
 ### Site
-FSM Awards (https://fsm-awards.netlify.app)
+FSM Awards (https://fire-security-matters-awards.netlify.app)
 
 ### Built with
 Jigsaw (https://jigsaw.tighten.co/)

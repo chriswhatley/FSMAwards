@@ -3,7 +3,7 @@ window.faq = [
 {
     question: "How much does it cost to enter?",
     answer: [
-    "It’s free to enter"
+    "It’s free to enter."
     ]
 },
 {
@@ -39,7 +39,7 @@ window.faq = [
 {
     question: "How do I enter the Awards?",
     answer: [
-    "You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-yellow-500 font-semibold\">enter nominations here</a>."
+    "You enter online via our <a href=\"/nominate\" class=\"text-red-pigment-500 font-semibold\">award entries page</a> and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-red-pigment-500 font-semibold\">enter nominations here</a>."
     ]
 },
 {
@@ -63,7 +63,7 @@ window.faq = [
 {
     question: "What should I do if I've got further questions or am unsure if my entry is eligible?",
     answer: [
-    "If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-yellow-500 font-semibold\">clicking HERE</a>."
+    "If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-red-pigment-500 font-semibold\">clicking HERE</a>."
     ]
 }
 ];
