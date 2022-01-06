@@ -95,7 +95,7 @@
 
 /*!
  * Splide.js
- * Version  : 2.4.14
+ * Version  : 2.4.20
  * License  : MIT
  * Copyright: 2020 Naotoshi Fujita
  */
@@ -103,114 +103,34 @@
 	if(true)
 		module.exports = factory();
 	else {}
-})(window, function() {
-return /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
-/******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+})(self, function() {
+return /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
 
-"use strict";
+/***/ 311:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ module_Splide; });
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => /* binding */ module_Splide
+});
 
 // NAMESPACE OBJECT: ./src/js/constants/states.js
 var states_namespaceObject = {};
 __webpack_require__.r(states_namespaceObject);
-__webpack_require__.d(states_namespaceObject, "CREATED", function() { return CREATED; });
-__webpack_require__.d(states_namespaceObject, "MOUNTED", function() { return MOUNTED; });
-__webpack_require__.d(states_namespaceObject, "IDLE", function() { return IDLE; });
-__webpack_require__.d(states_namespaceObject, "MOVING", function() { return MOVING; });
-__webpack_require__.d(states_namespaceObject, "DESTROYED", function() { return DESTROYED; });
+__webpack_require__.d(states_namespaceObject, {
+  "CREATED": () => CREATED,
+  "DESTROYED": () => DESTROYED,
+  "IDLE": () => IDLE,
+  "MOUNTED": () => MOUNTED,
+  "MOVING": () => MOVING
+});
 
-// CONCATENATED MODULE: ./src/js/core/event.js
+;// CONCATENATED MODULE: ./src/js/core/event.js
 /**
  * The function for providing an Event object simply managing events.
  *
@@ -221,7 +141,7 @@ __webpack_require__.d(states_namespaceObject, "DESTROYED", function() { return D
 /**
  * The function for providing an Event object simply managing events.
  */
-/* harmony default export */ var core_event = (function () {
+/* harmony default export */ const core_event = (function () {
   /**
    * Store all event data.
    *
@@ -325,7 +245,7 @@ __webpack_require__.d(states_namespaceObject, "DESTROYED", function() { return D
 
   return Event;
 });
-// CONCATENATED MODULE: ./src/js/core/state.js
+;// CONCATENATED MODULE: ./src/js/core/state.js
 /**
  * The function providing a super simple state system.
  *
@@ -338,7 +258,7 @@ __webpack_require__.d(states_namespaceObject, "DESTROYED", function() { return D
  *
  * @param {string|number} initialState - Provide the initial state value.
  */
-/* harmony default export */ var state = (function (initialState) {
+/* harmony default export */ const state = (function (initialState) {
   /**
    * Store the current state.
    *
@@ -367,7 +287,7 @@ __webpack_require__.d(states_namespaceObject, "DESTROYED", function() { return D
     }
   };
 });
-// CONCATENATED MODULE: ./src/js/utils/object.js
+;// CONCATENATED MODULE: ./src/js/utils/object.js
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 /**
@@ -457,7 +377,7 @@ function object_assign(to, from) {
   });
   return to;
 }
-// CONCATENATED MODULE: ./src/js/utils/utils.js
+;// CONCATENATED MODULE: ./src/js/utils/utils.js
 /**
  * A package of some miscellaneous utility functions.
  *
@@ -557,7 +477,7 @@ function toPixel(root, value) {
 
   return +value || 0;
 }
-// CONCATENATED MODULE: ./src/js/utils/dom.js
+;// CONCATENATED MODULE: ./src/js/utils/dom.js
 /**
  * Some utility functions related with DOM.
  *
@@ -801,7 +721,7 @@ function getRect(elm) {
  * @param {Function} callback - Callback function fired right after all images are loaded.
  */
 
-function dom_loaded(elm, callback) {
+function loaded(elm, callback) {
   var images = elm.querySelectorAll('img');
   var length = images.length;
 
@@ -819,7 +739,7 @@ function dom_loaded(elm, callback) {
     callback();
   }
 }
-// CONCATENATED MODULE: ./src/js/constants/types.js
+;// CONCATENATED MODULE: ./src/js/constants/types.js
 /**
  * Export slider types.
  *
@@ -847,7 +767,7 @@ var LOOP = 'loop';
  */
 
 var FADE = 'fade';
-// CONCATENATED MODULE: ./src/js/transitions/slide/index.js
+;// CONCATENATED MODULE: ./src/js/transitions/slide/index.js
 /**
  * The component for general slide effect transition.
  *
@@ -865,7 +785,7 @@ var FADE = 'fade';
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var transitions_slide = (function (Splide, Components) {
+/* harmony default export */ const slide = (function (Splide, Components) {
   /**
    * Hold the list element.
    *
@@ -920,7 +840,7 @@ var FADE = 'fade';
     }
   };
 });
-// CONCATENATED MODULE: ./src/js/transitions/fade/index.js
+;// CONCATENATED MODULE: ./src/js/transitions/fade/index.js
 /**
  * The component for fade transition.
  *
@@ -938,7 +858,7 @@ var FADE = 'fade';
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var fade = (function (Splide, Components) {
+/* harmony default export */ const fade = (function (Splide, Components) {
   var Fade = {
     /**
      * Called when the component is mounted.
@@ -986,7 +906,7 @@ var FADE = 'fade';
 
   return Fade;
 });
-// CONCATENATED MODULE: ./src/js/transitions/index.js
+;// CONCATENATED MODULE: ./src/js/transitions/index.js
 /**
  * Export transition components.
  *
@@ -995,7 +915,7 @@ var FADE = 'fade';
  */
 
 
-// CONCATENATED MODULE: ./src/js/core/composer.js
+;// CONCATENATED MODULE: ./src/js/core/composer.js
 /**
  * Provide a function for composing components.
  *
@@ -1022,13 +942,13 @@ function compose(Splide, Components, Transition) {
   });
 
   if (!Transition) {
-    Transition = Splide.is(FADE) ? fade : transitions_slide;
+    Transition = Splide.is(FADE) ? fade : slide;
   }
 
   components.Transition = Transition(Splide, components);
   return components;
 }
-// CONCATENATED MODULE: ./src/js/utils/error.js
+;// CONCATENATED MODULE: ./src/js/utils/error.js
 /**
  * Utility functions for outputting logs.
  *
@@ -1048,7 +968,7 @@ var MESSAGE_PREFIX = '[SPLIDE]';
  * @param {string} message - An error message.
  */
 
-function error_error(message) {
+function error(message) {
   console.error(MESSAGE_PREFIX + " " + message);
 }
 /**
@@ -1065,7 +985,7 @@ function exist(subject, message) {
     throw new Error(message);
   }
 }
-// CONCATENATED MODULE: ./src/js/constants/classes.js
+;// CONCATENATED MODULE: ./src/js/constants/classes.js
 /**
  * Export class names.
  *
@@ -1119,7 +1039,7 @@ var STATUS_CLASSES = {
   visible: 'is-visible',
   loading: 'is-loading'
 };
-// CONCATENATED MODULE: ./src/js/constants/i18n.js
+;// CONCATENATED MODULE: ./src/js/constants/i18n.js
 /**
  * Export i18n texts as object.
  *
@@ -1142,7 +1062,7 @@ var I18N = {
   play: 'Start autoplay',
   pause: 'Pause autoplay'
 };
-// CONCATENATED MODULE: ./src/js/constants/defaults.js
+;// CONCATENATED MODULE: ./src/js/constants/defaults.js
 /**
  * Export default options.
  *
@@ -1554,7 +1474,7 @@ var DEFAULTS = {
    */
   i18n: I18N
 };
-// CONCATENATED MODULE: ./src/js/constants/states.js
+;// CONCATENATED MODULE: ./src/js/constants/states.js
 /**
  * Export state constants.
  *
@@ -1596,7 +1516,7 @@ var MOVING = 4;
  */
 
 var DESTROYED = 5;
-// CONCATENATED MODULE: ./src/js/splide.js
+;// CONCATENATED MODULE: ./src/js/splide.js
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
@@ -1620,7 +1540,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
  * providing some APIs to control the behavior.
  */
 
-var splide_Splide = /*#__PURE__*/function () {
+var Splide = /*#__PURE__*/function () {
   /**
    * Splide constructor.
    *
@@ -1692,7 +1612,7 @@ var splide_Splide = /*#__PURE__*/function () {
         }
       });
     } catch (e) {
-      error_error(e.message);
+      error(e.message);
       return;
     }
 
@@ -1854,7 +1774,7 @@ var splide_Splide = /*#__PURE__*/function () {
   ;
 
   _proto.refresh = function refresh() {
-    this.emit('refresh').emit('resize');
+    this.emit('refresh:before').emit('refresh').emit('resize');
     return this;
   }
   /**
@@ -1982,7 +1902,7 @@ var splide_Splide = /*#__PURE__*/function () {
 }();
 
 
-// CONCATENATED MODULE: ./src/js/components/options/index.js
+;// CONCATENATED MODULE: ./src/js/components/options/index.js
 /**
  * The component for initializing options.
  *
@@ -2000,7 +1920,7 @@ var splide_Splide = /*#__PURE__*/function () {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_options = (function (Splide) {
+/* harmony default export */ const options = (function (Splide) {
   /**
    * Retrieve options from the data attribute.
    * Note that IE10 doesn't support dataset property.
@@ -2013,7 +1933,7 @@ var splide_Splide = /*#__PURE__*/function () {
     try {
       Splide.options = JSON.parse(options);
     } catch (e) {
-      error_error(e.message);
+      error(e.message);
     }
   }
 
@@ -2028,7 +1948,7 @@ var splide_Splide = /*#__PURE__*/function () {
     }
   };
 });
-// CONCATENATED MODULE: ./src/js/constants/directions.js
+;// CONCATENATED MODULE: ./src/js/constants/directions.js
 /**
  * Export layout modes.
  *
@@ -2056,7 +1976,7 @@ var RTL = 'rtl';
  */
 
 var TTB = 'ttb';
-// CONCATENATED MODULE: ./src/js/components/elements/slide.js
+;// CONCATENATED MODULE: ./src/js/components/elements/slide.js
 /**
  * The sub component for handling each slide.
  *
@@ -2087,7 +2007,7 @@ var STYLE_RESTORE_EVENTS = 'update.slide';
  * @return {Object} - The sub component object.
  */
 
-/* harmony default export */ var elements_slide = (function (Splide, index, realIndex, slide) {
+/* harmony default export */ const elements_slide = (function (Splide, index, realIndex, slide) {
   /**
    * Whether to update "is-active" class before or after transition.
    *
@@ -2101,7 +2021,7 @@ var STYLE_RESTORE_EVENTS = 'update.slide';
    * @type {string}
    */
 
-  var STATUS_UPDATE_EVENTS = 'ready.slide updated.slide resize.slide moved.slide' + (updateOnMove ? ' move.slide' : '');
+  var STATUS_UPDATE_EVENTS = 'ready.slide updated.slide resized.slide moved.slide' + (updateOnMove ? ' move.slide' : '');
   /**
    * Slide sub component object.
    *
@@ -2220,14 +2140,15 @@ var STYLE_RESTORE_EVENTS = 'update.slide';
         return active;
       }
 
+      var ceil = Math.ceil;
       var trackRect = getRect(Splide.Components.Elements.track);
       var slideRect = getRect(slide);
 
       if (Splide.options.direction === TTB) {
-        return trackRect.top <= slideRect.top && slideRect.bottom <= trackRect.bottom;
+        return trackRect.top <= slideRect.top && slideRect.bottom <= ceil(trackRect.bottom);
       }
 
-      return trackRect.left <= slideRect.left && slideRect.right <= trackRect.right;
+      return trackRect.left <= slideRect.left && slideRect.right <= ceil(trackRect.right);
     },
 
     /**
@@ -2281,7 +2202,7 @@ var STYLE_RESTORE_EVENTS = 'update.slide';
 
   return Slide;
 });
-// CONCATENATED MODULE: ./src/js/components/elements/index.js
+;// CONCATENATED MODULE: ./src/js/components/elements/index.js
 /**
  * The component for main elements.
  *
@@ -2309,7 +2230,7 @@ var UID_NAME = 'uid';
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_elements = (function (Splide, Components) {
+/* harmony default export */ const components_elements = (function (Splide, Components) {
   /**
    * Hold the root element.
    *
@@ -2474,7 +2395,7 @@ var UID_NAME = 'uid';
           this.slides.push(slide);
         }
 
-        dom_loaded(slide, function () {
+        loaded(slide, function () {
           callback && callback(slide);
         });
       }
@@ -2563,7 +2484,7 @@ var UID_NAME = 'uid';
 
   return Elements;
 });
-// CONCATENATED MODULE: ./src/js/components/controller/index.js
+;// CONCATENATED MODULE: ./src/js/components/controller/index.js
 /**
  * The component for controlling the track.
  *
@@ -2583,7 +2504,7 @@ var floor = Math.floor;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var controller = (function (Splide, Components) {
+/* harmony default export */ const controller = (function (Splide, Components) {
   /**
    * Store current options.
    *
@@ -2874,7 +2795,7 @@ var floor = Math.floor;
 
   return Controller;
 });
-// CONCATENATED MODULE: ./src/js/components/track/index.js
+;// CONCATENATED MODULE: ./src/js/components/track/index.js
 /**
  * The component for moving list in the track.
  *
@@ -2896,7 +2817,7 @@ var abs = Math.abs;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_track = (function (Splide, Components) {
+/* harmony default export */ const track = (function (Splide, Components) {
   /**
    * Hold the Layout component.
    *
@@ -3211,7 +3132,7 @@ var abs = Math.abs;
 
   return Track;
 });
-// CONCATENATED MODULE: ./src/js/components/clones/index.js
+;// CONCATENATED MODULE: ./src/js/components/clones/index.js
 /**
  * The component for cloning some slides for "loop" mode of the track.
  *
@@ -3231,7 +3152,7 @@ var abs = Math.abs;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_clones = (function (Splide, Components) {
+/* harmony default export */ const clones = (function (Splide, Components) {
   /**
    * Store information of all clones.
    *
@@ -3267,7 +3188,9 @@ var abs = Math.abs;
 
       if (Splide.is(LOOP)) {
         init();
-        Splide.on('refresh', init).on('resize', function () {
+        Splide.on('refresh:before', function () {
+          _this.destroy();
+        }).on('refresh', init).on('resize', function () {
           if (cloneCount !== getCloneCount()) {
             // Destroy before refresh not to collect clones by the Elements component.
             _this.destroy();
@@ -3398,7 +3321,7 @@ var abs = Math.abs;
 
   return Clones;
 });
-// CONCATENATED MODULE: ./src/js/components/layout/directions/horizontal.js
+;// CONCATENATED MODULE: ./src/js/components/layout/directions/horizontal.js
 /**
  * The resolver component for horizontal layout.
  *
@@ -3417,7 +3340,7 @@ var abs = Math.abs;
  * @return {Object} - The resolver object.
  */
 
-/* harmony default export */ var horizontal = (function (Splide, Components) {
+/* harmony default export */ const horizontal = (function (Splide, Components) {
   /**
    * Keep the Elements component.
    *
@@ -3557,7 +3480,7 @@ var abs = Math.abs;
 
   };
 });
-// CONCATENATED MODULE: ./src/js/components/layout/directions/vertical.js
+;// CONCATENATED MODULE: ./src/js/components/layout/directions/vertical.js
 /**
  * The resolver component for vertical layout.
  *
@@ -3576,7 +3499,7 @@ var abs = Math.abs;
  * @return {Object} - The resolver object.
  */
 
-/* harmony default export */ var vertical = (function (Splide, Components) {
+/* harmony default export */ const vertical = (function (Splide, Components) {
   /**
    * Keep the Elements component.
    *
@@ -3709,7 +3632,7 @@ var abs = Math.abs;
 
   };
 });
-// CONCATENATED MODULE: ./src/js/utils/time.js
+;// CONCATENATED MODULE: ./src/js/utils/time.js
 /**
  * A package of utility functions related with time.
  *
@@ -3790,19 +3713,18 @@ function createInterval(callback, interval, progress) {
     play: function play(reset) {
       start = 0;
 
+      if (reset) {
+        rate = 0;
+      }
+
       if (_pause) {
         _pause = false;
-
-        if (reset) {
-          rate = 0;
-        }
-
         requestAnimationFrame(step);
       }
     }
   };
 }
-// CONCATENATED MODULE: ./src/js/components/layout/index.js
+;// CONCATENATED MODULE: ./src/js/components/layout/index.js
 /**
  * The component for handing slide layouts and their sizes.
  *
@@ -3825,7 +3747,7 @@ function createInterval(callback, interval, progress) {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var layout = (function (Splide, Components) {
+/* harmony default export */ const layout = (function (Splide, Components) {
   /**
    * Keep the Elements component.
    *
@@ -3920,11 +3842,12 @@ function createInterval(callback, interval, progress) {
         height: Slide.container ? null : slideHeight
       });
     });
+    Splide.emit('resized');
   }
 
   return Layout;
 });
-// CONCATENATED MODULE: ./src/js/components/drag/index.js
+;// CONCATENATED MODULE: ./src/js/components/drag/index.js
 /**
  * The component for supporting mouse drag and swipe.
  *
@@ -3961,7 +3884,7 @@ var FRICTION_REDUCER = 7;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var drag = (function (Splide, Components) {
+/* harmony default export */ const drag = (function (Splide, Components) {
   /**
    * Store the Move component.
    *
@@ -4268,7 +4191,7 @@ var FRICTION_REDUCER = 7;
 
   return Drag;
 });
-// CONCATENATED MODULE: ./src/js/components/click/index.js
+;// CONCATENATED MODULE: ./src/js/components/click/index.js
 /**
  * The component for handling a click event.
  *
@@ -4285,7 +4208,7 @@ var FRICTION_REDUCER = 7;
  *
  * @return {Object} - The component object.
  */
-/* harmony default export */ var click = (function (Splide, Components) {
+/* harmony default export */ const click = (function (Splide, Components) {
   /**
    * Whether click is disabled or not.
    *
@@ -4314,8 +4237,11 @@ var FRICTION_REDUCER = 7;
         capture: true
       }).on('drag', function () {
         disabled = true;
-      }).on('moved', function () {
-        disabled = false;
+      }).on('dragged', function () {
+        // Make sure the flag is released after the click event is fired.
+        setTimeout(function () {
+          disabled = false;
+        });
       });
     }
   };
@@ -4335,7 +4261,7 @@ var FRICTION_REDUCER = 7;
 
   return Click;
 });
-// CONCATENATED MODULE: ./src/js/components/autoplay/index.js
+;// CONCATENATED MODULE: ./src/js/components/autoplay/index.js
 /**
  * The component for playing slides automatically.
  *
@@ -4363,7 +4289,7 @@ var PAUSE_FLAGS = {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_autoplay = (function (Splide, Components, name) {
+/* harmony default export */ const autoplay = (function (Splide, Components, name) {
   /**
    * Store pause flags.
    *
@@ -4522,7 +4448,7 @@ var PAUSE_FLAGS = {
 
   return Autoplay;
 });
-// CONCATENATED MODULE: ./src/js/components/cover/index.js
+;// CONCATENATED MODULE: ./src/js/components/cover/index.js
 /**
  * The component for change an img element to background image of its wrapper.
  *
@@ -4539,7 +4465,7 @@ var PAUSE_FLAGS = {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_cover = (function (Splide, Components) {
+/* harmony default export */ const cover = (function (Splide, Components) {
   /**
    * Hold options.
    *
@@ -4613,7 +4539,7 @@ var PAUSE_FLAGS = {
 
   return Cover;
 });
-// CONCATENATED MODULE: ./src/js/components/arrows/path.js
+;// CONCATENATED MODULE: ./src/js/components/arrows/path.js
 /**
  * Export vector path for an arrow.
  *
@@ -4641,7 +4567,7 @@ var PATH = 'm15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4
  */
 
 var SIZE = 40;
-// CONCATENATED MODULE: ./src/js/components/arrows/index.js
+;// CONCATENATED MODULE: ./src/js/components/arrows/index.js
 /**
  * The component for appending prev/next arrows.
  *
@@ -4661,7 +4587,7 @@ var SIZE = 40;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_arrows = (function (Splide, Components, name) {
+/* harmony default export */ const arrows = (function (Splide, Components, name) {
   /**
    * Previous arrow element.
    *
@@ -4816,7 +4742,7 @@ var SIZE = 40;
 
   return Arrows;
 });
-// CONCATENATED MODULE: ./src/js/components/pagination/index.js
+;// CONCATENATED MODULE: ./src/js/components/pagination/index.js
 /**
  * The component for handling pagination
  *
@@ -4849,7 +4775,7 @@ var UPDATE_EVENT = 'updated.page refresh.page';
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_pagination = (function (Splide, Components, name) {
+/* harmony default export */ const pagination = (function (Splide, Components, name) {
   /**
    * Store all data for pagination.
    * - list: A list element.
@@ -5009,7 +4935,7 @@ var UPDATE_EVENT = 'updated.page refresh.page';
 
   return Pagination;
 });
-// CONCATENATED MODULE: ./src/js/components/lazyload/index.js
+;// CONCATENATED MODULE: ./src/js/components/lazyload/index.js
 /**
  * The component for loading slider images lazily.
  *
@@ -5043,7 +4969,7 @@ var SRCSET_DATA_NAME = 'data-splide-lazy-srcset';
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var lazyload = (function (Splide, Components, name) {
+/* harmony default export */ const lazyload = (function (Splide, Components, name) {
   /**
    * Next index for sequential loading.
    *
@@ -5220,7 +5146,7 @@ var SRCSET_DATA_NAME = 'data-splide-lazy-srcset';
 
   return Lazyload;
 });
-// CONCATENATED MODULE: ./src/js/constants/a11y.js
+;// CONCATENATED MODULE: ./src/js/constants/a11y.js
 /**
  * Export aria attribute names.
  *
@@ -5269,7 +5195,7 @@ var ARIA_HIDDEN = 'aria-hidden';
  */
 
 var TAB_INDEX = 'tabindex';
-// CONCATENATED MODULE: ./src/js/components/keyboard/index.js
+;// CONCATENATED MODULE: ./src/js/components/keyboard/index.js
 /**
  * The component for controlling slides via keyboard.
  *
@@ -5315,7 +5241,7 @@ var KEY_MAP = {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_keyboard = (function (Splide) {
+/* harmony default export */ const keyboard = (function (Splide) {
   /**
    * Hold the target element.
    *
@@ -5356,7 +5282,7 @@ var KEY_MAP = {
     }
   };
 });
-// CONCATENATED MODULE: ./src/js/components/a11y/index.js
+;// CONCATENATED MODULE: ./src/js/components/a11y/index.js
 /**
  * The component for enhancing accessibility.
  *
@@ -5375,7 +5301,7 @@ var KEY_MAP = {
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var a11y = (function (Splide, Components) {
+/* harmony default export */ const a11y = (function (Splide, Components) {
   /**
    * Hold a i18n object.
    *
@@ -5609,7 +5535,7 @@ var KEY_MAP = {
 
   return A11y;
 });
-// CONCATENATED MODULE: ./src/js/components/sync/index.js
+;// CONCATENATED MODULE: ./src/js/components/sync/index.js
 /**
  * The component for synchronizing a slider with another.
  *
@@ -5646,7 +5572,7 @@ var TRIGGER_KEYS = [' ', 'Enter', 'Spacebar'];
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var sync = (function (Splide) {
+/* harmony default export */ const sync = (function (Splide) {
   /**
    * Keep the sibling Splide instance.
    *
@@ -5774,7 +5700,7 @@ var TRIGGER_KEYS = [' ', 'Enter', 'Spacebar'];
 
   return Sync;
 });
-// CONCATENATED MODULE: ./src/js/components/breakpoints/index.js
+;// CONCATENATED MODULE: ./src/js/components/breakpoints/index.js
 /**
  * The component for updating options according to a current window width.
  *
@@ -5798,7 +5724,7 @@ var THROTTLE = 50;
  * @return {Object} - The component object.
  */
 
-/* harmony default export */ var components_breakpoints = (function (Splide) {
+/* harmony default export */ const breakpoints = (function (Splide) {
   /**
    * Store breakpoints.
    *
@@ -5924,7 +5850,7 @@ var THROTTLE = 50;
 
   return Breakpoints;
 });
-// CONCATENATED MODULE: ./src/js/components/index.js
+;// CONCATENATED MODULE: ./src/js/components/index.js
 /**
  * Export components.
  *
@@ -5949,38 +5875,38 @@ var THROTTLE = 50;
 
 
 var COMPLETE = {
-  Options: components_options,
-  Breakpoints: components_breakpoints,
+  Options: options,
+  Breakpoints: breakpoints,
   Controller: controller,
   Elements: components_elements,
-  Track: components_track,
-  Clones: components_clones,
+  Track: track,
+  Clones: clones,
   Layout: layout,
   Drag: drag,
   Click: click,
-  Autoplay: components_autoplay,
-  Cover: components_cover,
-  Arrows: components_arrows,
-  Pagination: components_pagination,
+  Autoplay: autoplay,
+  Cover: cover,
+  Arrows: arrows,
+  Pagination: pagination,
   LazyLoad: lazyload,
-  Keyboard: components_keyboard,
+  Keyboard: keyboard,
   Sync: sync,
   A11y: a11y
 };
 var LIGHT = {
-  Options: components_options,
+  Options: options,
   Controller: controller,
   Elements: components_elements,
-  Track: components_track,
-  Clones: components_clones,
+  Track: track,
+  Clones: clones,
   Layout: layout,
   Drag: drag,
   Click: click,
-  Arrows: components_arrows,
-  Pagination: components_pagination,
+  Arrows: arrows,
+  Pagination: pagination,
   A11y: a11y
 };
-// CONCATENATED MODULE: ./build/module/module.js
+;// CONCATENATED MODULE: ./build/module/module.js
 function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
 
 /**
@@ -6003,12 +5929,73 @@ var module_Splide = /*#__PURE__*/function (_Core) {
   }
 
   return Splide;
-}(splide_Splide);
+}(Splide);
 
 
 
 /***/ })
-/******/ ]);
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		if(__webpack_module_cache__[moduleId]) {
+/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	// module exports must be returned from runtime so entry inlining is disabled
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(311);
+/******/ })()
+;
 });
 
 /***/ }),
@@ -6075,7 +6062,16 @@ window.faq = [{
 }]; // Sponsor Carousel 
 
 
-new _splidejs_splide__WEBPACK_IMPORTED_MODULE_0___default.a('.splide', {
+new _splidejs_splide__WEBPACK_IMPORTED_MODULE_0___default.a('.splide-sponsors', {
+  type: 'loop',
+  speed: '500',
+  perPage: 6,
+  perMove: 1,
+  autoplay: true,
+  pauseOnHover: false,
+  arrows: false
+}).mount();
+new _splidejs_splide__WEBPACK_IMPORTED_MODULE_0___default.a('.splide-supporters', {
   type: 'loop',
   speed: '500',
   perPage: 6,
@@ -6094,7 +6090,7 @@ new _splidejs_splide__WEBPACK_IMPORTED_MODULE_0___default.a('.splide', {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-webp-setclasses !*/
@@ -6254,9 +6250,9 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/js/modernizr-webp.js */"./source/_assets/js/modernizr-webp.js");
-__webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/css/main.css */"./source/_assets/css/main.css");
+__webpack_require__(/*! /Users/chriswhatley/Projects/FSMAwards/source/_assets/js/modernizr-webp.js */"./source/_assets/js/modernizr-webp.js");
+__webpack_require__(/*! /Users/chriswhatley/Projects/FSMAwards/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/chriswhatley/Projects/FSMAwards/source/_assets/css/main.css */"./source/_assets/css/main.css");
 
 
 /***/ })

@@ -315,6 +315,15 @@ footer .watermark {
 	@apply pb-0
 }
 
+.sponsor 
+    ul {
+        @apply list-disc ml-6 mb-6
+    }
+
+    h3 {
+        @apply mb-3 font-bold
+    }
+
 .smallprint 
     h4 {
         @apply mt-10 mb-1 font-semibold uppercase

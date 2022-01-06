@@ -4,7 +4,7 @@
 		<a class="inline-block mt-1 mb-2 font-semibold text-red-pigment-600 border-b-2 border-white hover:border-red-pigment-600 transition-all duration-500" href="/supporters#supporters">Find out more about our supporters</a>	
 	</div>
 
-	<div class="splide pt-4">
+	<div class="splide splide-supporters pt-4">
 		<div class="splide__track mb-6">
 			<ul class="splide__list">
 
