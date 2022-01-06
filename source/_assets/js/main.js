@@ -70,7 +70,17 @@ window.faq = [
 
 // Sponsor Carousel 
 import Splide from '@splidejs/splide';
-new Splide( '.splide', {
+new Splide( '.splide-sponsors', {
+    type        : 'loop',
+    speed       : '500',
+    perPage     : 6,
+    perMove     : 1,
+    autoplay    : true,
+    pauseOnHover: false,
+    arrows      : false,
+} ).mount();
+
+new Splide( '.splide-supporters', {
     type        : 'loop',
     speed       : '500',
     perPage     : 6,
