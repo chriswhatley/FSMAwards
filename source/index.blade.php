@@ -209,14 +209,14 @@
 				<div class="lg:flex lg:w-1/2">
 					<div class="w-full bg-gray-800">
 						<div class="px-6 py-16 ">									
-							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">FSM Awards<br />Sponsorship Opportunities</h3>
+							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">FSM Awards Gallery</h3>
 			            	<div class="mt-6 text-center">
-			            		<a href="/sponsorship" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="/gallery" class="btn-primary w-4/5 max-w-xs">
 			            			<div class="bg-white w-full rounded p-3 text-blue-900">
 				            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
-				            				<path d="M7.667 12H2v8H0V0h12l.333 2H20l-3 6 3 6H8l-.333-2z"></path>
+				            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path>
 				            			</svg>
-				            			Find Out More
+				            			View Gallery
 				            		</div>
 			            		</a>
 			            	</div>					
